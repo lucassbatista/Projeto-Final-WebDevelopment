@@ -25,8 +25,9 @@
 
 ### Instruções de execução
 
-- primeiro passo é subir a webapi, para isso é necessario que entre na pasta webapi-irpf (cd webapi-irpf) e execute o comando dotnet watch run.
-- segundo passo é executar o front end, para isso é necessario que entre na pasta imc-calc-react-crapp-main (cd imc-calc-react-crapp-main) e execute o comando 
+- primeiro passo é subir a webapi, para isso é necessario que entre na pasta webapi-irpf (cd webapi-irpf) e execute o comando: 
+  - dotnet watch run.
+- segundo passo é executar o front end, para isso é necessario que entre na pasta imc-calc-react-crapp-main (cd imc-calc-react-crapp-main) e execute os comandos: 
   - npm install react-scripts --save
   - npm run start
 
