@@ -16,6 +16,8 @@
 ### requisitos 
  - Ter o node e o dotnet instalados
  
+ Caso o 'react-scripts' não seja reconhecido como um comando interno, por favor executar o comando npm install react-scripts --save
+ 
  As versões utilizadas no projeto foram a seguinte:
  - node v16.13.0
  - npm 8.1.3
@@ -24,7 +26,9 @@
 ### Instruções de execução
 
 - primeiro passo é subir a webapi, para isso é necessario que entre na pasta webapi-irpf (cd webapi-irpf) e execute o comando dotnet watch run.
-- segundo passo é executar o front end, para isso é necessario que entre na pasta imc-calc-react-crapp-main (cd imc-calc-react-crapp-main) e execute o comando npm run start
+- segundo passo é executar o front end, para isso é necessario que entre na pasta imc-calc-react-crapp-main (cd imc-calc-react-crapp-main) e execute o comando 
+  - npm install react-scripts --save
+  - npm run start
 
 Depois disso você tera o seguinte cenário:
 WebApi:
