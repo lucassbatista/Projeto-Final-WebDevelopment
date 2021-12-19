@@ -28,7 +28,7 @@
 - primeiro passo é subir a webapi, para isso é necessario que entre na pasta webapi-irpf (cd webapi-irpf) e execute o comando: 
   - dotnet watch run.
 - segundo passo é executar o front end, para isso é necessario que entre na pasta imc-calc-react-crapp-main (cd imc-calc-react-crapp-main) e execute os comandos: 
-  - npm install react-scripts --save
+  - npm install react-scripts --save (esse comando so precisa executar uma vez, para que seja criada a pasta node_module)
   - npm run start
 
 Depois disso você tera o seguinte cenário:
